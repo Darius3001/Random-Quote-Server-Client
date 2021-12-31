@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/darius/Desktop/Workspace/RN/Block2/server.c
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+
